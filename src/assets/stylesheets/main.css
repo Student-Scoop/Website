@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Benzin';
+		src: url('/fonts/benzin/Benzin-Medium.ttf') format('truetype');
+		font-weight: 500;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Benzin';
+		src: url('/fonts/benzin/Benzin-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Benzin';
+		src: url('/fonts/benzin/Benzin-Semibold.ttf') format('truetype');
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Benzin';
+		src: url('/fonts/benzin/Benzin-Bold.ttf') format('truetype');
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Benzin';
+		src: url('/fonts/benzin/Benzin-ExtraBold.ttf') format('truetype');
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+@supports (-webkit-touch-callout: none) {
+	.h-screen {
+		height: -webkit-fill-available;
+	}
+}
